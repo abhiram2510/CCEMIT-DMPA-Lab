@@ -1,0 +1,18 @@
+1.Update the damage amount to 25000 for the car with a specific reg. no in a
+PARTICIPATED table with report number 1.
+
+-- update participated set damageamt='25000' where regno='KA01' and reportno='1';
+
+2.Delete the accident and related information that took place in a specific year.
+
+-- cascade all the keys to delete and then run delete command (EZzzz)
+(but doesnt work in online compilers)
+
+3.Alter table to add and delete an attribute.
+
+--alter table accident add damagedesc varchar(20);
+-alter table accident drop column damagedesc;
+
+4.Alter table to add Check constraint.
+
+--alter table car add constraint constraint1 check(year>2000);
