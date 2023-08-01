@@ -1,0 +1,34 @@
+-- insert
+insert into person values('1','Abhiram','Bangalore');
+insert into person values('2','Sahith','Hyderabad');
+insert into person values('3','Kashyap','Gujarat');
+insert into person values('4','Pranith','Bihar');
+insert into person values('5','Chittesh','Manipur');
+
+
+insert into car values('KA01','BMW X1','2023');
+insert into car values('TS07','Jeep Compass','2021');
+insert into car values('GJ01','Innova','2014');
+insert into car values('BR01','Nano','2010');
+insert into car values('MN01','Alto','2009');
+
+
+insert into accident values(1,'21-07-2021','Bangalore');
+insert into accident values(2,'23-08-2022','Hyderabad');
+insert into accident values(3,'24-03-2023','Gujarat');
+insert into accident values(4,'29-06-2023','Bangalore');
+insert into accident values(5,'31-06-2022','Manipal');
+
+insert into owns values(1,'KA01');
+insert into owns values(2,'TS07');
+insert into owns values(3,'GJ01');
+insert into owns values(4,'BR01');
+insert into owns values(5,'MN01');
+
+
+insert into participated values('1','KA01','1','29999');
+insert into participated values('2','TS07','2','10000');
+insert into participated values('3','GJ01','3','20000');
+insert into participated values('4','BR01','4','15000');
+insert into participated values('5','MN01','5','17000'); 
+
